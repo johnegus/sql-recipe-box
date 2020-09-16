@@ -16,6 +16,8 @@
 -- SELECT ...
 -- FROM ...
 -- WHERE ... (here you'll use the $1 parameter)
-
+SELECT list_order, specification
+FROM instructions
+WHERE recipe_id = $1;
 
 -- YOUR CODE HERE
