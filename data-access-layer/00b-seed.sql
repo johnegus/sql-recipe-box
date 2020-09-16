@@ -8,7 +8,7 @@
 -- user.
 
 -- YOUR CODE HERE
- SET ROLE 'recipe_box_app';
+ SET ROLE recipe_box_app;
 
 
 
@@ -30,7 +30,7 @@ CREATE TABLE recipes (
     id SERIAL PRIMARY KEY,
     title VARCHAR(200) NOT NULL,
     created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    updated TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP 
+    updated TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
 
