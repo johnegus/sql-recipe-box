@@ -12,6 +12,6 @@
 --
 -- DELETE FROM ...
 -- WHERE ...
-
+DELETE FROM recipes
 
 -- YOUR CODE HERE
