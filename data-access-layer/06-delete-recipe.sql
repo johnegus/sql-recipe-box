@@ -12,6 +12,8 @@
 --
 -- DELETE FROM ...
 -- WHERE ...
-DELETE FROM recipes
+DELETE FROM instructions WHERE recipe_id = $1;
+DELETE FROM ingredients WHERE recipe_id = $1;
+DELETE FROM recipes WHERE id = $1;
 
 -- YOUR CODE HERE

@@ -151,7 +151,7 @@ VALUES
 (6, 'Butter bean & chorizo stew', '2016-12-26', '2016-12-26'),
 (7, 'Green Grape Pie', '2016-07-31', '2016-07-31'),
 (8, 'Curried cauliflower & lentil soup', '2017-03-22', '2017-03-22'),
-(9, 'Pesto & goat''s cheese risotto', '2019-06-01', '2019-06-01'),
+(9, 'Pesto & goat''s cheese risotto soup', '2019-06-01', '2019-06-01'),
 (10, 'Jerk prawn & coconut rice bowls', '2019-11-20', '2019-11-20'),
 (11, 'Sausages with pesto mash', '2020-01-05', '2020-01-05'),
 (12, 'Easy laksa', '2014-08-30', '2014-08-30');
